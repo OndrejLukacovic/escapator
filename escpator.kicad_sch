@@ -5797,6 +5797,16 @@
 		)
 		(uuid "1e932db0-2fb2-47da-8838-818a4ab9fea7")
 	)
+	(label "D+"
+		(at 257.81 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28658179-4193-43bb-9190-7741bfc3b513")
+	)
 	(label "STLINK_RX"
 		(at 256.54 171.45 0)
 		(effects
@@ -5826,6 +5836,16 @@
 			(justify left bottom)
 		)
 		(uuid "3df2cfb6-6325-4faa-bced-35f2449db16e")
+	)
+	(label "D-"
+		(at 256.54 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fb8132d-7a85-4f7b-9965-d461e22a67c8")
 	)
 	(label "T_JTCK"
 		(at 281.94 161.29 0)
