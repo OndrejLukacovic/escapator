@@ -3827,6 +3827,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 171.45) (xy 223.52 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a20c93f-e8b8-4125-becb-ea896f66ecfc")
+	)
+	(wire
+		(pts
 			(xy 242.57 21.59) (xy 248.92 21.59)
 		)
 		(stroke
@@ -4897,7 +4907,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 171.45) (xy 223.52 171.45)
+			(xy 182.88 171.45) (xy 205.74 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9618,6 +9628,74 @@
 			(project ""
 				(path "/7e85dbb0-f9db-48a7-8746-268b4e5d7d4c"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f485364c-691a-4f97-9641-421ddf7112b9")
+		(property "Reference" "R9"
+			(at 209.55 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 209.55 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.55 169.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5749bed-fff3-4435-8fac-32e89e0f2486")
+		)
+		(pin "2"
+			(uuid "95e3f5ea-aa05-48b4-9cbb-138ef82f9f50")
+		)
+		(instances
+			(project "escpator"
+				(path "/7e85dbb0-f9db-48a7-8746-268b4e5d7d4c"
+					(reference "R9")
 					(unit 1)
 				)
 			)
