@@ -4577,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d6c18b-cac1-43dd-b915-9c1e9daa66fc")
+	)
+	(wire
+		(pts
 			(xy 172.72 99.06) (xy 234.95 99.06)
 		)
 		(stroke
@@ -4747,16 +4757,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 171.45) (xy 223.52 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5b0c01a-271d-479a-83cf-d9fe3c25e65b")
-	)
-	(wire
-		(pts
 			(xy 242.57 33.02) (xy 248.92 33.02)
 		)
 		(stroke
@@ -4897,6 +4897,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 171.45) (xy 223.52 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e23dfa-ce8d-4378-b2d4-5fd98aa25c8e")
+	)
+	(wire
+		(pts
 			(xy 276.86 163.83) (xy 290.83 163.83)
 		)
 		(stroke
@@ -5004,6 +5014,16 @@
 			(justify left bottom)
 		)
 		(uuid "18e6183c-638f-4521-9ddd-5e9ae6af7b8d")
+	)
+	(label "Pin_navic"
+		(at 176.53 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b195783-edfc-4698-8e0f-362d92af459b")
 	)
 	(label "T_NRST"
 		(at 177.8 168.91 0)
@@ -5144,6 +5164,16 @@
 			(justify left bottom)
 		)
 		(uuid "6950bd73-db3c-4557-8747-aba12a47ff32")
+	)
+	(label "Pin_navic"
+		(at 185.42 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79b267cf-291b-42a1-b744-2aa738dc96dd")
 	)
 	(label "SWCLK"
 		(at 302.26 88.9 0)
@@ -5942,73 +5972,6 @@
 			(project "escpator"
 				(path "/7e85dbb0-f9db-48a7-8746-268b4e5d7d4c"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2451476f-9229-464d-b7c0-49c9f82226ca")
-		(property "Reference" "#PWR031"
-			(at 214.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 207.01 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "545b10cf-038a-4d12-b781-283a64d4876f")
-		)
-		(instances
-			(project ""
-				(path "/7e85dbb0-f9db-48a7-8746-268b4e5d7d4c"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
