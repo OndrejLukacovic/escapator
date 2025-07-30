@@ -1,4 +1,4 @@
-26442060252159063
+26442060252327607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -16699,8 +16699,8 @@ Untitled_3
 
 
 0
-0
-0
+5
+5
 Connector_JAE
 JAE_LY20-4P-DLT1_2x02_P2.00mm_Horizontal
 Molex LY 20 series connector, LY20-4P-DLT1, 2 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ038187.pdf), generated with kicad-footprint-generator
